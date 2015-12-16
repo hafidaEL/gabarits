@@ -1,12 +1,75 @@
-container {
-width: 800px;
-margin: auto;
+
+
+header, footer, nav, section, aside
+{
+ 
+  	display: inline-block;
+
+	/* indispensable avec inline-block */
+	vertical-align: middle;
+	box-sizing: border-box; /* cf. cours pour comprendre */
+	border: 1px #000 solid;
+	margin: 0; /* marge externe */
+	padding: 0; /* marge interne */
+	white-space: nowrap;
+   
 }
 
-header {
+#container
+{
+	width: 80%;
+	margin: auto;
+	/*margin-left: 10%;
+	margin-right: 10%; */
+}
+header 
+{
 	width: 100%;
+	height: 150px;
 	text-align: center;
 	font-weight: bold;
 	background-color: red;
 	
+}
+
+section
+{
+	position: relative;
+	width: 50%;
+	height: 150px;
+	margin : 0 ;
+	text-align: center;
+	font-weight: bold;
+	background-color: blue;
+
+}
+
+nav
+{	
+	width: 25%;
+	height: 150px;
+	margin : 0 ;
+	text-align: center;
+	font-weight: bold;
+	background-color: green;
+}
+
+aside
+{	
+	width: 25%;
+	height: 150px;
+	margin : 0 ;
+	text-align: center;
+	font-weight: bold;
+	background-color: #f0f;
+}
+
+footer
+{
+	width: 100%;
+	height: 150px;
+	margin : 0 ;
+	text-align: center;
+	font-weight: bold;
+	background-color: yellow;
 }

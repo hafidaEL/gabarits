@@ -1,0 +1,44 @@
+
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      .container {
+        width: 760px;
+        margin: 0 auto;
+        margin-bottom: 200px;
+        text-align: center;
+        font-weight: bold;
+      }
+      header, nav, main, aside, footer {
+        display: inline-block;
+      }
+      header {
+        width: 100%;
+        height: 100px;
+        background-color: #f00;
+      }
+      nav {
+        width: 20%;
+        height: 400px;
+        background-color: #0f0;
+      }
+      main {
+        height: 400px;
+        width: 60%;
+        background-color: #00f;
+      }
+      .nav main { width: 80%; }
+      .main main { width: 100%; }
+      aside {
+        width: 20%;
+        height: 400px;
+        background-color: #f0f;
+      }
+      footer {
+        width: 100%;
+        height: 100px;
+        background-color: #ff0;
+      }
+    
